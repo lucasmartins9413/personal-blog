@@ -114,8 +114,29 @@
 		</ul>
 	</div>
 
+	<!-- search popup-->
+
+	<div class="search-popup">
+		<button class="btn-close" aria-label="Close" type="button"></button>
+
+		<div class="search-content">
+			<div class="text-center">
+				<h3 class="mb-4 mt-0">Pres ESC to close</h3>
+			</div>
+
+			<form action="" class="d-flex search-form">
+				<input type="search" placeholder="Pesquise aqui" name="" aria-label="search" class="form-control me-2">
+				<button class="btn btn-default btn-lg" type="submit">
+					<i class="icon-magnifier"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+
+	
+	<script src="<?php echo INCLUDE_PATH_BLOG ?>js/jquery.min.js"></script>
+	<script src="<?php echo INCLUDE_PATH_BLOG ?>js/jquery.sticky-sidebar.min.js"></script>
 	<script src="<?php echo INCLUDE_PATH_BLOG ?>js/main.js"></script>
-	<script src="<?php echo INCLUDE_PATH_BLOG ?>js/jquery"></script>
 	<script src="<?php echo INCLUDE_PATH_BLOG ?>js/bootstrap.min.js"></script>
 	<script src="<?php echo INCLUDE_PATH_BLOG ?>js/slick.js"></script>
 	<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
